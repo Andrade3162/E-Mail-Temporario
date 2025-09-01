@@ -37,7 +37,7 @@ class TempMailPro:
             }
         }
 
-    def show_banner(self):
+def show_banner(self):
     """Display the banner with updated color scheme"""
     banner = """
 \033[1;36m
