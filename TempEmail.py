@@ -40,7 +40,6 @@ class TempMailPro:
     def show_banner(self):
         """Display the banner with updated color scheme"""
         banner = """
-banner = """
 \033[1;36m
  █████╗ ███╗   ██╗██████╗ ██████╗ ██████╗ ███████╗
 ██╔══██╗████╗  ██║██╔══██╗██╔══██╗██╔══██╗██╔════╝
@@ -64,8 +63,6 @@ banner = """
 ███████╗██║ ╚═╝ ██║██║  ██║██║███████╗
 ╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚══════╝
 \033[0m
-"""
-print(banner)
 """
 print(banner)
 
