@@ -1,5 +1,8 @@
 # e-Mail-pemporario
 
+<img width="322" height="232" alt="image" src="https://github.com/user-attachments/assets/5d2a76ad-c085-4e0c-96e1-a92fedf053eb" />
+
+
 Perfeito! Vou criar um **README.md** completo e organizado para o seu projeto **Mail-Temp**, explicando instalação, uso e funcionalidades. Aqui está um exemplo pronto:
 
 ````markdown
