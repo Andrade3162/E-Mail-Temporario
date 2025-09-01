@@ -38,8 +38,8 @@ class TempMailPro:
         }
 
     def show_banner(self):
-        """Display the banner with updated color scheme"""
-        banner = """
+    """Display the banner with updated color scheme"""
+    banner = """
 \033[1;36m
  █████╗ ███╗   ██╗██████╗ ██████╗ ██████╗ ███████╗
 ██╔══██╗████╗  ██║██╔══██╗██╔══██╗██╔══██╗██╔════╝
@@ -48,7 +48,6 @@ class TempMailPro:
 ██║  ██║██║ ╚████║██████╔╝██████╔╝██████╔╝███████╗
 ╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝
 \033[1;33m
-
 ████████╗███████╗███╗   ███╗██████╗ 
 ╚══██╔══╝██╔════╝████╗ ████║██╔══██╗
    ██║   █████╗  ██╔████╔██║██████╔╝
@@ -64,14 +63,12 @@ class TempMailPro:
 ╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚══════╝
 \033[0m
 """
-print(banner)
-
-        print(banner)
-        print("\033[1;35m╔════════════════════════════════════════════════════╗")
-        print("\033[1;35m║         \033[1;36mAnonymous Temporary Email System\033[1;35m           ║")
-        print("\033[1;35m║         \033[1;33mVersion: 1.1\033[1;35m                               ║")
-        print("\033[1;35m║         \033[1;32mAuthor : East Timor Ghost Security\033[1;35m         ║")
-        print("\033[1;35m╚════════════════════════════════════════════════════╝\033[0m\n")
+    print(banner)
+    print("\033[1;35m╔════════════════════════════════════════════════════╗")
+    print("\033[1;35m║         \033[1;36mAnonymous Temporary Email System\033[1;35m           ║")
+    print("\033[1;35m║         \033[1;33mVersion: 1.1\033[1;35m                               ║")
+    print("\033[1;35m║         \033[1;32mAuthor : East Timor Ghost Security\033[1;35m         ║")
+    print("\033[1;35m╚════════════════════════════════════════════════════╝\033[0m\n")
 
     def show_loading_animation(self, duration=3):
         """Show box loading animation"""
